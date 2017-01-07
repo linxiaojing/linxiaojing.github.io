@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xuan.news/"/>
-  <updated>2016-12-27T15:29:46.000Z</updated>
+  <updated>2017-01-07T05:03:02.000Z</updated>
   <id>http://xuan.news/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>回首2016，展望2017</title>
+    <link href="http://xuan.news/2017/01/07/2016-summarizes-and-2017-plans/"/>
+    <id>http://xuan.news/2017/01/07/2016-summarizes-and-2017-plans/</id>
+    <published>2017-01-07T04:33:42.000Z</published>
+    <updated>2017-01-07T05:03:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>2016年过去了，这一年比较大的变化是女儿的成长，从开始走路到学会说很多词语、再到会跳会唱歌，陪伴着女儿的日子永远是最快乐的；老家换了个住所，在6月份的时间成交了一套二手房，7月开始装修在8月底完成装修，11月底搬进了新房，变成了房贷一族；同时在老婆终于在10月份找到份工作，而我的工作岗位也发生了变化，是我还算较喜欢的一个岗位，不至于同样的工作做太长时间会显示太枯燥了。2016年头脑里面一直在想开创其它的开源方式，但是一直找不到，可能是想的都没有真正去找去做的实际，可能同时也是担心害怕失败所要付出的金钱和时间。在11月的时候，把自己的一个域名卖了4万多元，一是因为年底需用钱的地方比较多，二是因为自己判断域名行业已在走下坡了。</p>
+<a id="more"></a>
+<p>2016年看看周边的人群，小时候玩得最好的表姐，一个在17年元旦的时候生了二胎，依然是个男孩，另一个表姐呢，二胎已有5个月了，还有小婶也是。另表弟明年3月也要见到自己第一个孩子了，为此，三姨非常高兴，我们也很为他们开心。总之，感觉2016年时间轴滚动得好快，而且好多事情发生，感觉大家都在往前奔跑着。特别是科技的发展太快了，从移动互联到现在人工智能，无人驾驶、无人机的发展，手机和电池的技术变迁等，从互联网金融到全民理财等，我感觉我们的生活应该就是要求变，不要一成不变，我喜欢变化的世界和变化的生活，所以在2017年我希望我的生活能有这么的一些改变：<br>1、高效陪伴女儿成长，带给女儿快乐和正确的思维方式；<br>2、系统地学习理财，能取得理财上，交出一份好的成绩；<br>3、找到可靠的开源方式，给生活多带些收入；<br>4、锻炼身体，二胎准备中……；</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2016年过去了，这一年比较大的变化是女儿的成长，从开始走路到学会说很多词语、再到会跳会唱歌，陪伴着女儿的日子永远是最快乐的；老家换了个住所，在6月份的时间成交了一套二手房，7月开始装修在8月底完成装修，11月底搬进了新房，变成了房贷一族；同时在老婆终于在10月份找到份工作，而我的工作岗位也发生了变化，是我还算较喜欢的一个岗位，不至于同样的工作做太长时间会显示太枯燥了。2016年头脑里面一直在想开创其它的开源方式，但是一直找不到，可能是想的都没有真正去找去做的实际，可能同时也是担心害怕失败所要付出的金钱和时间。在11月的时候，把自己的一个域名卖了4万多元，一是因为年底需用钱的地方比较多，二是因为自己判断域名行业已在走下坡了。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="生活随笔" scheme="http://xuan.news/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="总结" scheme="http://xuan.news/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>再次更改本站域名</title>
@@ -632,42 +657,6 @@
       <category term="domain" scheme="http://xuan.news/tags/domain/"/>
     
       <category term=".tv" scheme="http://xuan.news/tags/tv/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>15个在西部数码上结拍的精品.xyz域名</title>
-    <link href="http://xuan.news/2015/12/22/15-dot-xyz-domain-names-sell-at-west-cn/"/>
-    <id>http://xuan.news/2015/12/22/15-dot-xyz-domain-names-sell-at-west-cn/</id>
-    <published>2015-12-22T04:52:42.000Z</published>
-    <updated>2016-03-04T06:53:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>15个.xyz域名于昨晚在<a href="http://www.west.cn/web/static/domainauction/" target="_blank" rel="external">west.cn</a>全部拍卖完毕，最后一个域名9.xyz拍出了1135000元。根据<a href="https://ntldstats.com/" target="_blank" rel="external">ntldstats</a>上显示，.xyz域名的注册量已达到1,750,457个，稳居新顶级域名中排名第一的位置，占比达到16.02%。这无外乎跟两点有关系，一是谷歌公司购买了abc.xyz，另一个是.xyz较低的注册价格（最低时曾为1美元及人民币4元）。同时前两次8.xyz和6.xyz较高的成交价也再次促成了投资者对.xyz的乐观态度。在中国一些新顶级域名的运营确实一下子获得了很大的成功，包括.xyz、.club、.top、.wang等，这必将使得其它新顶级域名注册局对中国市场的重视，相信不久后必会加大力度与中国注册商的合作。</p>
-<p>而说到中国注册商，目前支持顶级域名注册的，成都的“西部数码”这家公司应该是目前中国最大的一家，不仅支持注册的域名后缀各类最多，而且很多溢价米也同时支持注册（如近期新增了.tv域名的溢价米的注册）；同时还支持新顶级域名的交易，投资者可以直接在其官网上标价或是拍卖新顶级域名。根据ntldstats上显示，“西部数码”已成为新顶级域名注册量最大的注册商，注册量为1,863,669个，占比达17.05%，已远超Godaddy公司（约为其2倍），而在国内排第二的是“<a href="http://www.ename.cn" target="_blank" rel="external">易名中国</a>”。<a id="more"></a></p>
-<p>在west.cn上结拍的.xyz域名：</p>
-<blockquote>
-<p>域名    价格（元）<br>987.xyz    26500<br>xxx.xyz        43000<br>zzz.xyz    39000<br>189.xyz    22500<br>yyy.xyz    40000<br>xx.xyz    385000<br>118.xyz    50000<br>pz.xyz    54000<br>6n.xyz    22500<br>zz.xyz    114000<br>yy.xyz    250000<br>87.xyz    100000<br>884.xyz    4700<br>22.xyz    172000<br>9.xyz    1135000</p>
-</blockquote>
-<p>另，据传此次拍下9.xyz买家就是8.xyz域名的拥有者，先前8.xyz以81,741美元成交，此次拍卖创下了.xyz最大的成交价，而排名第二的是中国留学生125,000美元购买的6.xyz域名。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;15个.xyz域名于昨晚在&lt;a href=&quot;http://www.west.cn/web/static/domainauction/&quot;&gt;west.cn&lt;/a&gt;全部拍卖完毕，最后一个域名9.xyz拍出了1135000元。根据&lt;a href=&quot;https://ntldstats.com/&quot;&gt;ntldstats&lt;/a&gt;上显示，.xyz域名的注册量已达到1,750,457个，稳居新顶级域名中排名第一的位置，占比达到16.02%。这无外乎跟两点有关系，一是谷歌公司购买了abc.xyz，另一个是.xyz较低的注册价格（最低时曾为1美元及人民币4元）。同时前两次8.xyz和6.xyz较高的成交价也再次促成了投资者对.xyz的乐观态度。在中国一些新顶级域名的运营确实一下子获得了很大的成功，包括.xyz、.club、.top、.wang等，这必将使得其它新顶级域名注册局对中国市场的重视，相信不久后必会加大力度与中国注册商的合作。&lt;/p&gt;
-&lt;p&gt;而说到中国注册商，目前支持顶级域名注册的，成都的“西部数码”这家公司应该是目前中国最大的一家，不仅支持注册的域名后缀各类最多，而且很多溢价米也同时支持注册（如近期新增了.tv域名的溢价米的注册）；同时还支持新顶级域名的交易，投资者可以直接在其官网上标价或是拍卖新顶级域名。根据ntldstats上显示，“西部数码”已成为新顶级域名注册量最大的注册商，注册量为1,863,669个，占比达17.05%，已远超Godaddy公司（约为其2倍），而在国内排第二的是“&lt;a href=&quot;http://www.ename.cn&quot;&gt;易名中国&lt;/a&gt;”。
-    
-    </summary>
-    
-      <category term="域名投资" scheme="http://xuan.news/categories/%E5%9F%9F%E5%90%8D%E6%8A%95%E8%B5%84/"/>
-    
-    
-      <category term="domain" scheme="http://xuan.news/tags/domain/"/>
-    
-      <category term=".xyz" scheme="http://xuan.news/tags/xyz/"/>
-    
-      <category term="newgtld" scheme="http://xuan.news/tags/newgtld/"/>
-    
-      <category term="拍卖" scheme="http://xuan.news/tags/%E6%8B%8D%E5%8D%96/"/>
     
   </entry>
   
