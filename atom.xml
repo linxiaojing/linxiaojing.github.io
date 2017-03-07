@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xuan.news/"/>
-  <updated>2017-01-07T05:03:02.000Z</updated>
+  <updated>2017-03-07T12:46:27.000Z</updated>
   <id>http://xuan.news/</id>
   
   <author>
@@ -16,11 +16,68 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>回首2016，展望2017</title>
+    <title>家庭“科学上网”网络环境的搭建详解</title>
+    <link href="http://xuan.news/2017/03/07/my-family-router/"/>
+    <id>http://xuan.news/2017/03/07/my-family-router/</id>
+    <published>2017-03-07T11:20:42.000Z</published>
+    <updated>2017-03-07T12:46:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>先列一下我们家庭使用的网络接入情况和所需联网设备的需求清单，我们家所使用的宽带接入是“福建广电高清+赠送的10M宽带”（每年收费是600元），另有一“联通50M宽带”（因线路未到问题待后期接入中）；家中所需求上网的设备需需求包括如下：<br>1、父亲、母亲和我的Android手机；<br>2、老婆的iphone手机；<br>3、一部ipad（基本现在给女儿娱乐用）；<br>4、电视盒子（乐视C1S）；<br>5、两部笔电（一联想，一苹果）；<br>6、监控摄像头（小蚁云台摄像头）；<br>家庭实际面积约为133平米，因家中部分房间所布的暗线网线未通，所以原来的组网方式是通过电力猫的方式进行组网，买的是TP-LINK的电力猫。后期考虑到一是想使用Youtube kids给孩子看动画片的同时创造点英语环境，以及自己喜欢看的Youtube、上twitter等。自己有搬瓦工的服务器，每年是9.99美元，然后通过安装SS服务，然后再通过手机和电脑分别安装shadowsocks客户端实现科学上网。而后因ipad和iphone实现科学上网比较麻烦且无法通过youtube或youtube kids的APP来看节目，所以萌发了打造家庭科学上网的网络环境，即重新挑选购买了可刷梅林固件的路由器。</p>
+<p>在某宝上以463元购买了Linksys EA6900路由器（保修一年一个月内包换），推荐也可以在koolshare上不定时组织的团购活动上购买不同型号的路由器。然后刷机、设定最后实现了如下的功能：</p>
+<blockquote>
+<p>1、去掉所有视频网站及APP上的播放前广告（使用插件koolproxy）；<br>2、实现路由器下面所有设备的科学上网（使用插件shadowsocks），而且还可以设置多个节点进行智能引流；[这个是最为主要的实现目的]<br>3、给apple store进行加速（使用插件appledns）;<br>4、共享U盘或移动硬盘，可当成网络硬盘;<br>5、想实现双拔的功能（但很遗憾，福建广电宽带无法禁用了双拔，只能待联通宽带线路到达后即可实现）；<br>6、因福建广电给的WAN的IP是内网的，所以使用了内网穿透（使用插件frpc穿透）后，外网可以通过自定义域名进行访问路由器（如果拔号的IP是公众IP，那么可以直接使用dnspod或liaddns插件）；<br>7、进行离线下载（使用aria2插件、迅雷远程离线下载）；<br>8、可以实现VPN，但目前因为办公室没有限制，所以对我来说无所谓；</p>
+</blockquote>
+<p>下图是我路由器上安装的插件：<br><img src="http://7vzr50.com1.z0.glb.clouddn.com/router1.png" alt="我所安装的插件"></p>
+<p>同时重新刷了乐视盒子的固件（刷的是乐视盒子C1S_UI3.0_041定制版），这个版本的主要特点是：</p>
+<blockquote>
+<p>主要改点：<br>1.集成索尼成像引擎；<br>2.集成索尼XLOUD音效补丁；<br>3.精简掉多余APK，去除开机广告，加入更多手柄和键盘驱动支持文件；<br>4.修改内核开启ADB调试功能，并开启蓝牙功能；<br>5.修改内核，加入init.d脚本支持、加入SQLite3数据库优化脚本、加入Zipalign脚本，开机执行Zipalign对齐优化；<br>6.增加ROOT权限(默认授权，无须手动确认)，更改字体为“微软雅黑”；<br>7.加入DTS、AC3解码补丁，直接支持“YYF定制版乐视遥控器”，无须再打任何补丁，选购后即可数字换台；<br>8.内置三种界面(芒果，WIN8，定制)并增加切换工具，可扩展当贝桌面；<br>9.集成最新YYF下载系统samba版，支持samba共享、FTP、迅雷远程、BT/PT下载、aria2下载、应用安装、文件管理……等。</p>
+<pre>附下载地址：
+[百度云盘下载](http://pan.baidu.com/s/1qY5rnmG) （密码：3rn8）</pre>
+
+</blockquote>
+<p>最后再安装了google框架、google服务、google账号管理、google player后即可实现安装youtube及youtube kids实现观看。而观看中文动画片，我推荐CIBN微视听，里面有很多高清的如小猪佩奇的动画片，而且归类非常整齐。</p>
+<p>一步一步，先从路由器的配置说起：<br>固件我是下载380.65-X7.4 固件<a href="http://koolshare.cn/thread-82632-1-1.html" target="_blank" rel="external">下载地址</a>，然后就是刷机，EA6900的刷机比较麻烦，要先刷了DD-然后刷CFE-再刷梅林固件。不会刷或是没把握刷的建议还是某宝上买那些卖家可以帮刷的产品。<br>刷好后就是配置问题，要在软件中心安装插件，一定要在系统管理里的系统设置里把Enable JFFS custom scripts and configs选项设备为是。其它的插件都很多安装使用，其中要说到2个插件，一个是内网穿透，一个是aria2离线下载工具。</p>
+<p><img src="http://7vzr50.com1.z0.glb.clouddn.com/router2.png" alt="系统设置截图"><br>要实现内网穿透，有两个工具，一个是“穿透DDNS”、一个是“frpc穿透”，建议使用后一个更好用，但你需要要自己的服务器，我使用的是搬瓦工，具体的教程见<a href="http://koolshare.cn/forum.php?mod=viewthread&amp;tid=65379&amp;highlight=frp" target="_blank" rel="external">koolshare网站</a></p>
+<p>下面是安装完的服务器配置情况及插件设置截图：</p>
+<pre>==============================================
+You Server IP      : 104.224.165.175
+Bind port          : 5443
+vhost http port    : 8080
+vhost https port   : 444
+Dashboard port     : 6443
+Privilege token    : qRB4f7Z7Jl1Uhmsq
+Max Pool count     : 50
+Log level          : info
+Log max days       : 3
+Log file   : enable
+==============================================</pre>
+
+
+<p><img src="http://7vzr50.com1.z0.glb.clouddn.com/router3.png" alt="Frpc插件设置截图"><br>然后是aria2插件的安装，注意下载目录一定要先选定，RPC的密码一定要设置为数字。</p>
+<p><img src="http://7vzr50.com1.z0.glb.clouddn.com/router4.png" alt="aria2插件设置截图"><br>同时在要WAN网络设置里的端口转发里设置：</p>
+<p><img src="http://7vzr50.com1.z0.glb.clouddn.com/router5.png" alt="端口转发设置截图"><br>关于U盘或是移动硬盘要设置为网络共享，需在USB相关应用里的Samba里开启服务，允许访客登入，另发现aicloud2.0只要一开启，就变成没办法共享。</p>
+<p><img src="http://7vzr50.com1.z0.glb.clouddn.com/router6.png" alt="USB设置截图"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;先列一下我们家庭使用的网络接入情况和所需联网设备的需求清单，我们家所使用的宽带接入是“福建广电高清+赠送的10M宽带”（每年收费是600元），另有一“联通50M宽带”（因线路未到问题待后期接入中）；家中所需求上网的设备需需求包括如下：&lt;br&gt;1、父亲、母亲和我的Androi
+    
+    </summary>
+    
+      <category term="科学上网" scheme="http://xuan.news/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    
+      <category term="router" scheme="http://xuan.news/tags/router/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>回首2016，展望2</title>
     <link href="http://xuan.news/2017/01/07/2016-summarizes-and-2017-plans/"/>
     <id>http://xuan.news/2017/01/07/2016-summarizes-and-2017-plans/</id>
     <published>2017-01-07T04:33:42.000Z</published>
-    <updated>2017-01-07T05:03:02.000Z</updated>
+    <updated>2017-03-07T12:32:32.000Z</updated>
     
     <content type="html"><![CDATA[<p>2016年过去了，这一年比较大的变化是女儿的成长，从开始走路到学会说很多词语、再到会跳会唱歌，陪伴着女儿的日子永远是最快乐的；老家换了个住所，在6月份的时间成交了一套二手房，7月开始装修在8月底完成装修，11月底搬进了新房，变成了房贷一族；同时在老婆终于在10月份找到份工作，而我的工作岗位也发生了变化，是我还算较喜欢的一个岗位，不至于同样的工作做太长时间会显示太枯燥了。2016年头脑里面一直在想开创其它的开源方式，但是一直找不到，可能是想的都没有真正去找去做的实际，可能同时也是担心害怕失败所要付出的金钱和时间。在11月的时候，把自己的一个域名卖了4万多元，一是因为年底需用钱的地方比较多，二是因为自己判断域名行业已在走下坡了。</p>
 <a id="more"></a>
@@ -631,32 +688,6 @@
       <category term="domain" scheme="http://xuan.news/tags/domain/"/>
     
       <category term="拍卖" scheme="http://xuan.news/tags/%E6%8B%8D%E5%8D%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>.tv域名的上升行情</title>
-    <link href="http://xuan.news/2015/12/24/dot-tv-domain-market-up/"/>
-    <id>http://xuan.news/2015/12/24/dot-tv-domain-market-up/</id>
-    <published>2015-12-24T03:06:42.000Z</published>
-    <updated>2016-03-04T06:53:35.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>.tv域名近期受到很多国内域名投资者的注意，先前三数字、四数字均已被注册，随着西数数码提供.tv溢价域名的注册服务，现在约3500个的三声母的溢价域名也近乎注册完。说到这些溢价域名，即第一次注册费用由960元至上千元，个别的还有上万元。而续费价格则与普通域名的续费价一样。先前我的《<a href="http://read.mobi/2015/03/20/premium-dot-tv-domain-change-its-rule/" target="_blank" rel="external">Premium .tv域名规则又变了</a>》这篇文章有对溢价域名进行了详细的说明。然而还有一点大家都在问及的就是溢价的域名是否可以转出？根据.tv注册局的回复，溢价域名是可以在几个被认证的域名注册商之间相互转移的，这些域名注册商数量有限，据查仅有name.com、dynadot、enom、101domain、gandi.net、1api.net这几家（具体查看哪注册商可以互转，可点击查看<a href="http://premium.watch.tv/registrars.html" target="_blank" rel="external">官方说明</a>）。</p>
-<p>交易市场方面，国外投资者<a href="https://www.namepros.com/threads/usa-tv-sold-for-125k.905564/" target="_blank" rel="external">donnied79</a>在namepros上爆料其USA.tv以125,000美元售出，这个域名的成交价刚好与今年6.xyz的成交价是一样的。根据<a href="http://dnjournal.com/ytd-sales-charts.htm" target="_blank" rel="external">DNJournal</a>上的2015年域名成交排名，USA.tv应排在国别域名的第二名，取代了原第二名的8.co成交价为115,000美元，第一名则是tv.se（成交价是265,149美元）。另一方面，根据国内.tv域名的拍卖情况，3数字不带4的域名基本可以拍到1.5万元以上，带4的基本在1万左右，而4数字不带04的域名基本成交价在2000元以上。看来，此次.tv域名也站在了国内域名投资热的风口上。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;.tv域名近期受到很多国内域名投资者的注意，先前三数字、四数字均已被注册，随着西数数码提供.tv溢价域名的注册服务，现在约3500个的三声母的溢价域名也近乎注册完。说到这些溢价域名，即第一次注册费用由960元至上千元，个别的还有上万元。而续费价格则与普通域名的续费价一样。先
-    
-    </summary>
-    
-      <category term="域名投资" scheme="http://xuan.news/categories/%E5%9F%9F%E5%90%8D%E6%8A%95%E8%B5%84/"/>
-    
-    
-      <category term="domain" scheme="http://xuan.news/tags/domain/"/>
-    
-      <category term=".tv" scheme="http://xuan.news/tags/tv/"/>
     
   </entry>
   
