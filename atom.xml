@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xuan.news/"/>
-  <updated>2017-03-07T12:52:24.000Z</updated>
+  <updated>2017-03-25T06:12:21.000Z</updated>
   <id>http://xuan.news/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给电视盒子安装Youtube kids</title>
+    <link href="http://xuan.news/2017/03/25/install-youtubekids/"/>
+    <id>http://xuan.news/2017/03/25/install-youtubekids/</id>
+    <published>2017-03-25T06:11:42.000Z</published>
+    <updated>2017-03-25T06:12:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一直以来都对培养孩子的多种语言能力很是犹豫，什么时候让孩子学习第二种语言最好呢？现在就面临着是培养方言还是普通话为主，很多人就有不同的看法，我们家是以普通话培养孩子主。而第二种语言，即英语，什么时间接触最好呢？</p>
+<p>上个月我听了知乎LIVE的一个《如何培养优秀的双语宝宝》小讲里，主讲人韩东燃是哈佛大学医学院博士后，他和其妻子orangesky正在国外从事幼儿教育。其提的几点意见，我还是表示认同的。如，成人是通用一对一的关系进行规则记忆，要达到母语水平是比较难的。而通过学习方式的改变，为了达到母语水平，在孩子的时候就开始学习就很有优势。因为孩子早期更多的依赖记忆，他把语言和语境一起记忆下来，能过该语境出现什么语言来模仿和学习。那如果家长第二语言不好情况下，如何让孩子学第二语言，其方法中就提到了比如看动画片，接触一些有趣的语境。</p>
+<p>在国内要购买比较好的英语的动画片，比较难。一是想高清、二是想内容要合适。而国外就有非常多不错的英语动画片，像最近比较流行的Peppe Pig（国内叫小猪佩奇），还有maisy mouse、penelope、thomas the train、team umizoomi、paw patrol等。而这些在Youtube kids的这个儿童APP里面就有，还是免费且高清的。所以我想了些办法给自己先前的乐视盒子进行了安装。<br><a id="more"></a></p>
+<p>首先盒子要进行固件更新，更新可以ROOT的版本固件，找了几个版本，后来使用的是乐视盒子041S版本，然后安装相应的google框架、google服务、google player，但是发现找了好几个google框架有的都不能用，最后找到个可以使用的版本，非常折腾。后来发现国内的CIBN微视听的APP也有小猪佩奇的节目，高清的只有中文版的，英文版的资源少而且不清晰。其实为了免于折腾，可以直接某宝上购买海美迪Q5的电视盒子（这款不错，某宝上售价是699元），可以直接帮你升级最新固件，支持IOS 10 airplay播放，而且提供Google play、youtube、youtube kids的安装。</p>
+<p>当然了，有个问题，即从小看动画片对孩子的视力是否不好，让很多家长觉得困惑的。小讲里也有提到过，我们读书的那时候发现，常看书又没有经常在外面活动的孩子就容易近视，而那些读书差，但常在外面撒野的孩子，尽管也会常到网吧玩游戏玩很久，但他们的眼睛就没近视。简单说，要保护好视力，就是让小孩在外面活动的时间和在室内看书看电视的时间要协调好，时间的控制和安排很重要，多些户外活动，让眼睛的焦距可以不断长短变换，就会起到放松眼睛的作用。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一直以来都对培养孩子的多种语言能力很是犹豫，什么时候让孩子学习第二种语言最好呢？现在就面临着是培养方言还是普通话为主，很多人就有不同的看法，我们家是以普通话培养孩子主。而第二种语言，即英语，什么时间接触最好呢？&lt;/p&gt;
+&lt;p&gt;上个月我听了知乎LIVE的一个《如何培养优秀的双语宝宝》小讲里，主讲人韩东燃是哈佛大学医学院博士后，他和其妻子orangesky正在国外从事幼儿教育。其提的几点意见，我还是表示认同的。如，成人是通用一对一的关系进行规则记忆，要达到母语水平是比较难的。而通过学习方式的改变，为了达到母语水平，在孩子的时候就开始学习就很有优势。因为孩子早期更多的依赖记忆，他把语言和语境一起记忆下来，能过该语境出现什么语言来模仿和学习。那如果家长第二语言不好情况下，如何让孩子学第二语言，其方法中就提到了比如看动画片，接触一些有趣的语境。&lt;/p&gt;
+&lt;p&gt;在国内要购买比较好的英语的动画片，比较难。一是想高清、二是想内容要合适。而国外就有非常多不错的英语动画片，像最近比较流行的Peppe Pig（国内叫小猪佩奇），还有maisy mouse、penelope、thomas the train、team umizoomi、paw patrol等。而这些在Youtube kids的这个儿童APP里面就有，还是免费且高清的。所以我想了些办法给自己先前的乐视盒子进行了安装。&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>家庭“科学上网”网络环境的搭建详解</title>
@@ -192,9 +217,9 @@ Log file   : enable
       <category term="域名投资" scheme="http://xuan.news/categories/%E5%9F%9F%E5%90%8D%E6%8A%95%E8%B5%84/"/>
     
     
-      <category term="拍卖" scheme="http://xuan.news/tags/%E6%8B%8D%E5%8D%96/"/>
-    
       <category term=".club" scheme="http://xuan.news/tags/club/"/>
+    
+      <category term="拍卖" scheme="http://xuan.news/tags/%E6%8B%8D%E5%8D%96/"/>
     
   </entry>
   
@@ -343,11 +368,11 @@ Log file   : enable
     
       <category term="domain" scheme="http://xuan.news/tags/domain/"/>
     
-      <category term=".xyz" scheme="http://xuan.news/tags/xyz/"/>
-    
       <category term="newgtld" scheme="http://xuan.news/tags/newgtld/"/>
     
       <category term="拍卖" scheme="http://xuan.news/tags/%E6%8B%8D%E5%8D%96/"/>
+    
+      <category term=".xyz" scheme="http://xuan.news/tags/xyz/"/>
     
   </entry>
   
@@ -382,11 +407,11 @@ Log file   : enable
     
       <category term="domain" scheme="http://xuan.news/tags/domain/"/>
     
+      <category term=".club" scheme="http://xuan.news/tags/club/"/>
+    
       <category term="newgtld" scheme="http://xuan.news/tags/newgtld/"/>
     
       <category term="拍卖" scheme="http://xuan.news/tags/%E6%8B%8D%E5%8D%96/"/>
-    
-      <category term=".club" scheme="http://xuan.news/tags/club/"/>
     
   </entry>
   
@@ -623,70 +648,9 @@ Log file   : enable
     
       <category term="domain" scheme="http://xuan.news/tags/domain/"/>
     
-      <category term="newgtld" scheme="http://xuan.news/tags/newgtld/"/>
-    
-      <category term="拍卖" scheme="http://xuan.news/tags/%E6%8B%8D%E5%8D%96/"/>
-    
       <category term=".club" scheme="http://xuan.news/tags/club/"/>
     
-  </entry>
-  
-  <entry>
-    <title>域名拍卖行业的大爆发</title>
-    <link href="http://xuan.news/2015/12/27/domain-auction-market-boom/"/>
-    <id>http://xuan.news/2015/12/27/domain-auction-market-boom/</id>
-    <published>2015-12-27T09:43:41.000Z</published>
-    <updated>2016-03-04T06:53:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>今年中国域名行业的火热催生了很多域名相关的线下活动及产业，比如“域名节”、“<a href="http://ymq.com/" target="_blank" rel="external">域名圈</a>”等线下聚会活动，“<a href="http://mixue.com/" target="_blank" rel="external">米学网</a>”中国域名学院第一门户，“<a href="http://www.mirong.com/" target="_blank" rel="external">米融网</a>”、“<a href="http://www.zundai.com/" target="_blank" rel="external">尊贷网</a>”、“<a href="http://www.jiandai.com/" target="_blank" rel="external">简贷</a>”等域名贷款业务，更是有很多域名拍卖。而域名拍卖国内现大致分为三种，一是网站平台上的拍卖，比如金名网(4.cn)、DN.com（和4.cn都是徐俊创办的）、金米网(jinmi.com)、优名网(62.com)、美名网(10.cn)等。二是YY视频拍卖，三是微信群内拍卖，现主要说一下后两种。</p>
-<p>视频拍卖最出名的是以下三个：<br>1、由航伟[微信68888]和张大官人[微信12313]联合发起的“金牌拍卖”，由美女主播乔[微信788788]主持拍卖！</p>
-<blockquote>
-<p>网站：<a href="jinpai.com">金牌拍卖jinpai.com</a><br>时间：每周一周四晚上8点；<br>接受域名：2-5数字com、2-4数字cn、2-4字母com或者cn、单拼、精品双拼com,cn,cc；<br>拍卖形式：视频拍卖（YY频道：1333 ）；<br>拍卖规则：域名需先PUSH到指定的易名或是爱名的账号，需提供转移码的域名，卖家需缴纳5000元保证金到我们账户，点击查看<a href="http://jinpai.com/Home/Index/intro.html" target="_blank" rel="external">具体规则</a>。 </p>
-</blockquote>
-<p>2、锤子拍卖会，所用的域名chuizi.com，据传罗永浩曾报价七位数以上收购，卖家都没有出售。</p>
-<blockquote>
-<p>网站：<a href="chuizi.com">锤子拍卖chuizi.com</a><br>时间：每周二晚上8点；<br>拍卖形式：视频拍卖 （YY频道：7777）；<br>接受域名：2-5数字com、2-4数字cn、2-4字母com或者cn、单拼、精品双拼com或者cn；<br>拍卖规则：域名需先PUSH到指定的易名或是爱名的账号，需提供转移码的域名，卖家需缴纳5000元保证金到我们账户，点击查看<a href="http://www.chuizi.com/rule" target="_blank" rel="external">具体规则</a>。</p>
-</blockquote>
-<a id="more"></a>
-<p>3、尊拍网，由网名为多多哥[微信3138212]发起</p>
-<blockquote>
-<p>网站：<a href="www.zunpai.com">尊拍网zunpai.com</a><br>时间：每周三周日晚上8点；<br>拍卖形式：视频拍卖 （YY频道：57918）；<br>接受域名：2-5数字com、2-4数字cn、2-4字母com或者cn、单拼、精品双拼com或者cn；<br>拍卖规则：域名需先PUSH到指定的易名或是爱名的账号，需提供转移码的域名，卖家需缴纳5000元保证金到我们账户，点击查看<a href="http://www.zunpai.com/guize/" target="_blank" rel="external">具体规则</a>。</p>
-</blockquote>
-<p>4、米家拍卖，由知名的域名投资商，厦门书生庄良基先生创办（同为米学网的创办人），著有《拆掉互联网那堵墙》一书，其人持有数千个精品行业域名。</p>
-<blockquote>
-<p>网站：<a href="mijia.com">米家网mijia.com</a><br>时间：每周二周五晚上8点；<br>拍卖形式：视频拍卖 （YY频道：6818）；<br>接受域名：2-4字母com或者cn、2-4数字com或者cn、单拼、精品双拼com或者cn；<br>拍卖规则：域名需先PUSH到指定的易名或是爱名的账号，需提供转移码的域名，卖家需缴纳5000元保证金到我们账户，点击查看<a href="http://www.mijia.com/live/rule/init.htm" target="_blank" rel="external">具体规则</a>。</p>
-</blockquote>
-<p>微信拍卖，大大小小的微信群非常之多，现主要介绍以下几个：<br>1、咱村-米家之家网站</p>
-<blockquote>
-<p>网站：<a href="zancun.com">咱村zancun.com</a><br>时间：每周五晚上8点；<br>接受域名：推出双拼专场、三拼专场、数字专场、个人专场，还有特产相送；<br>拍卖形式：微信群拍卖（域名拍卖联系村长-微信:7631200、大小米-微信：33809626）；<br>拍卖规则 ：中介交易，买家打款给网站，卖家再PUSH域名，点击查看<a href="http://www.zancun.com/service/domain/paimai.html" target="_blank" rel="external">具体规划</a>。</p>
-</blockquote>
-<p>2、.tv域名专拍群</p>
-<blockquote>
-<p>.tv域名拍卖群<br>时间：每周五、周六、周日；<br>接受域名：周五数字专场、周六综合专场、周日数字专场；<br>拍卖形式：微信群拍卖（域名拍卖联系爱国-微信:shiaiguoaq ）；<br>拍卖规则：中介交易，买家打款给网站，卖家再PUSH域名。</p>
-</blockquote>
-<p>3、其它微信群：金域名（ 微信主办人：itlaoluo及 zjhzqj）、黑鹰（微信公众号：domaintop ，主办人： zhanyifeng）、A5微信群（<a href="http://pm.a5.net/上面众多微信号）。" target="_blank" rel="external">http://pm.a5.net/上面众多微信号）。</a></p>
-<p>对于手里有好域名但是一直没有人给到合适的价格？就可以提交给相应的拍卖群进行快速拍卖，这比你放在交易平台上等买家自动找上门及来回议价时快得多，这对于急于套现的朋友来说是非常好的一种方式。同时提示，国内现众多的拍卖群，请米友要慎重选择，了解其背后主办人的背景或诚信度，才能提交拍卖。</p>
-<p>域名行业在中国的发展，今年是非常之快的，而近年末了，对于明年域名在中国的发展，相信很多域名投资者都抱着更大的信心。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今年中国域名行业的火热催生了很多域名相关的线下活动及产业，比如“域名节”、“&lt;a href=&quot;http://ymq.com/&quot;&gt;域名圈&lt;/a&gt;”等线下聚会活动，“&lt;a href=&quot;http://mixue.com/&quot;&gt;米学网&lt;/a&gt;”中国域名学院第一门户，“&lt;a href=&quot;http://www.mirong.com/&quot;&gt;米融网&lt;/a&gt;”、“&lt;a href=&quot;http://www.zundai.com/&quot;&gt;尊贷网&lt;/a&gt;”、“&lt;a href=&quot;http://www.jiandai.com/&quot;&gt;简贷&lt;/a&gt;”等域名贷款业务，更是有很多域名拍卖。而域名拍卖国内现大致分为三种，一是网站平台上的拍卖，比如金名网(4.cn)、DN.com（和4.cn都是徐俊创办的）、金米网(jinmi.com)、优名网(62.com)、美名网(10.cn)等。二是YY视频拍卖，三是微信群内拍卖，现主要说一下后两种。&lt;/p&gt;
-&lt;p&gt;视频拍卖最出名的是以下三个：&lt;br&gt;1、由航伟[微信68888]和张大官人[微信12313]联合发起的“金牌拍卖”，由美女主播乔[微信788788]主持拍卖！&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;网站：&lt;a href=&quot;jinpai.com&quot;&gt;金牌拍卖jinpai.com&lt;/a&gt;&lt;br&gt;时间：每周一周四晚上8点；&lt;br&gt;接受域名：2-5数字com、2-4数字cn、2-4字母com或者cn、单拼、精品双拼com,cn,cc；&lt;br&gt;拍卖形式：视频拍卖（YY频道：1333 ）；&lt;br&gt;拍卖规则：域名需先PUSH到指定的易名或是爱名的账号，需提供转移码的域名，卖家需缴纳5000元保证金到我们账户，点击查看&lt;a href=&quot;http://jinpai.com/Home/Index/intro.html&quot;&gt;具体规则&lt;/a&gt;。 &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;2、锤子拍卖会，所用的域名chuizi.com，据传罗永浩曾报价七位数以上收购，卖家都没有出售。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;网站：&lt;a href=&quot;chuizi.com&quot;&gt;锤子拍卖chuizi.com&lt;/a&gt;&lt;br&gt;时间：每周二晚上8点；&lt;br&gt;拍卖形式：视频拍卖 （YY频道：7777）；&lt;br&gt;接受域名：2-5数字com、2-4数字cn、2-4字母com或者cn、单拼、精品双拼com或者cn；&lt;br&gt;拍卖规则：域名需先PUSH到指定的易名或是爱名的账号，需提供转移码的域名，卖家需缴纳5000元保证金到我们账户，点击查看&lt;a href=&quot;http://www.chuizi.com/rule&quot;&gt;具体规则&lt;/a&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="域名投资" scheme="http://xuan.news/categories/%E5%9F%9F%E5%90%8D%E6%8A%95%E8%B5%84/"/>
-    
-    
-      <category term="domain" scheme="http://xuan.news/tags/domain/"/>
+      <category term="newgtld" scheme="http://xuan.news/tags/newgtld/"/>
     
       <category term="拍卖" scheme="http://xuan.news/tags/%E6%8B%8D%E5%8D%96/"/>
     
